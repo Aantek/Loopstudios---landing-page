@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    // screens:{
+    //   'xs' : {'max' : '639px'}
+    // },
+    extend: {
+      fontFamily: {
+        sans: ['Josefin Sans', 'sans-serif'],
+        alata: ['Alata']
+      },
+    },
   },
   plugins: [],
 }
