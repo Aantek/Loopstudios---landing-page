@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
 #hero{
@@ -14,21 +14,20 @@
     #hero{
         background-image: url('../assets/images/mobile/image-hero.jpg');
         background-position: center;
+        background-size: cover;
     } 
-    .maincaption{
-        font-size: 32px;
-        padding: 16px;
-    }
+  
+   
 }
 .open{
     transform: rotate(90deg);
 
 } 
 .open .hamburger-top{
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 .open .hamburger-bottom{
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 .open .hamburger-middle{
     display: none;

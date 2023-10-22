@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
-        alata: ['Alata']
+        alata: ['Alata'],
+        roboto: ['Roboto'],
       },
     },
   },
